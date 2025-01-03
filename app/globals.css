@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #0070f3;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+.custom-input {
+  background-color: #e0f7fa;  /* Light cyan background */
+  border: 2px solid #00796b;  /* Teal border */
+  color: #004d40;  /* Dark teal text color */
+  padding: 10px;
+  width: 100%;
+}
+
+.custom-input:focus {
+  outline: none;  /* Remove the default focus outline */
+  border-color: #004d40;  /* Change border color on focus */
+}
