@@ -22,13 +22,6 @@
       "static/chunks/main-app-7e300d25c933eebc.js",
       "static/chunks/app/about/page-0a09f233b260e2c9.js"
     ],
-    "/page": [
-      "static/chunks/webpack-aec9878b8d1ee206.js",
-      "static/chunks/4bd1b696-dc53661a9e7a1ea0.js",
-      "static/chunks/517-045c9f6a1bae110d.js",
-      "static/chunks/main-app-7e300d25c933eebc.js",
-      "static/chunks/app/page-d1d52783b12bfa3a.js"
-    ],
     "/availability/page": [
       "static/chunks/webpack-aec9878b8d1ee206.js",
       "static/chunks/4bd1b696-dc53661a9e7a1ea0.js",
@@ -36,6 +29,13 @@
       "static/chunks/main-app-7e300d25c933eebc.js",
       "static/chunks/205-0456f53abbe79e96.js",
       "static/chunks/app/availability/page-7b6e7a2208b4ef73.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-aec9878b8d1ee206.js",
+      "static/chunks/4bd1b696-dc53661a9e7a1ea0.js",
+      "static/chunks/517-045c9f6a1bae110d.js",
+      "static/chunks/main-app-7e300d25c933eebc.js",
+      "static/chunks/app/page-d1d52783b12bfa3a.js"
     ],
     "/bookings/page": [
       "static/chunks/webpack-aec9878b8d1ee206.js",

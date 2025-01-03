@@ -9,6 +9,12 @@ interface AvailabilitySlot {
   available: boolean;
 }
 
+// Define a type for the booking slot received from the API
+interface BookingSlot {
+  time: string;
+  available: boolean;
+}
+
 export default function Availability() {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
@@ -36,7 +42,7 @@ export default function Availability() {
       // Handle the response
       if (response.status === 200 && response.data.booking) {
         // Assuming response.data.booking is an array of slots with `time` and `available` properties
-        const bookingData: AvailabilitySlot[] = response.data.booking.map((slot: any) => ({
+        const bookingData: AvailabilitySlot[] = response.data.booking.map((slot: BookingSlot) => ({
           time: slot.time,
           available: slot.available,
         }));
